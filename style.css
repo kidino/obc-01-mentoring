@@ -1,0 +1,53 @@
+
+body {
+    background-color: rgb(255, 250, 162);
+}
+
+div {
+    border: 1px solid #f00;
+}
+
+div#products {
+    padding: 10px;
+    overflow:auto;
+}
+
+div.product-item {
+    border: 1px solid #6f00f7;
+    margin: 5px;
+
+    width: 200px;
+    padding: 10px;
+    float: left;
+}
+
+p {
+    padding-bottom: 15px;
+    line-height: 1.3em;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+}
+
+table {
+    border-collapse: collapse;
+  }
+
+table, th, td {
+    border: 1px solid;
+    border-color: #6d6d6d;
+  }
+
+  td, th {
+    padding: 5px 10px;
+  }
+
+ th {
+    background-color : #6f00f7;
+    color: #fff;
+ }
+

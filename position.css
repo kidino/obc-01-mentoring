@@ -1,0 +1,70 @@
+body {
+    background-color: #fff;
+    margin:0px; padding: 0px;
+}
+
+body * {
+    margin: 0px; padding: 0px;
+    box-sizing: border-box;
+}
+
+#left {
+    width: 50vw;
+    height: 100vh;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+
+
+}
+
+#right {
+    position: absolute;
+    top: 0px; right: 0px;
+    width: 50vw;
+    height: 100vh;
+    background-color: #bee2ff;    
+}
+
+#gambar-01 {
+    position: absolute;
+    right: 0px;
+    z-index: 10;
+}
+
+#menu {
+    bottom: 0px;
+    position:fixed;
+    z-index: 20;
+    background-color: #f00;
+    height: 40px; width: 100vw;
+}
+
+div.dot {
+    height: 50px; width: 50px;
+}
+
+.red {
+    background-color: #f00;
+}
+
+.green {
+    background-color: #0f0;
+}
+
+.blue {
+    background-color: #00f;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+div.dat {
+    height: 80px; width: 80px;
+    border: 1px solid #000;
+}
+
+
